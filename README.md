@@ -1,6 +1,14 @@
 ## Teste/APP Solarpipe
 
-App criado para aplicação de vaga.
+App criado para aplicação de vaga. Aplicação criada utilizando:
+
+- Expo
+- Typescript
+- react-navigation
+- nativewind
+- expo-linear-gradient
+- expo-font
+- axios
 
 ## Fucionalidades
 
