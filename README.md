@@ -10,6 +10,25 @@ App criado para aplicação de vaga. Aplicação criada utilizando:
 - expo-font
 - axios
 
+## Instruções
+
+Ao clonar o projeto, rodar o comando `npm install` para instalação de todas as dependências.
+
+Após instalar as dependências, pode-se executar algum dos seguintes comandos:
+
+```
+npx expo start - /* Este comando irá executar o servidor do expo */
+
+npm run start  - /*Este comando irá executar o comando "expo start", ou seja, irá iniciar o servidor do expo*/
+
+npm run android  - /*Este comando irá executar o comando "expo start --android", ou seja, irá executar o app no emulador android disponível*/
+
+npm run ios -  /* Este comando irá executar o comando "expo start --ios", ou seja, irá executar o app no emulador ios disponível -- somente no MAC*/
+
+```
+
+Com o servidor do expo rodando, é possível rodar no seu dispositivo mobile, usando o app [Expo Go](https://expo.dev/client).
+
 ## Fucionalidades
 
 Login e persistencia do login.
