@@ -14,7 +14,22 @@ App criado para aplicação de vaga. Aplicação criada utilizando:
 
 Ao clonar o projeto, rodar o comando `npm install` para instalação de todas as dependências.
 
-Após instalar as dependências, pode-se executar algum dos seguintes comandos:
+Após instalar as dependências, é necessário alterar o arquivo `axios.ts` que está no diretório `src/lib/axios.ts`.
+
+```
+  Deve-se alterar o baseURL:
+
+  export const api = axios.create({
+    baseURL: 'http://IP_DA_MAQUINA:3000',
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  })
+
+  Onde está o nome IP_DA_MAQUINA é necessário alterar para o IP da máquina onde o servidor está rodando.
+```
+
+Após realizar a alteração, pode-se executar algum dos seguintes comandos:
 
 ```
 npx expo start - /* Este comando irá executar o servidor do expo */
